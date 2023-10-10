@@ -11,6 +11,6 @@ MODULE:
 
 для запуска (из директории проекта):
 
-pip install -r req.tx
+pip install -r req.txt
 
 python app.py
