@@ -1,0 +1,58 @@
+03:09:43.48 INFO | __main__:start_module:9 | start : get_currency_rate
+03:09:55.73 SUCCESS | src.client:get_currency_rate:36 | 27886.9
+03:11:15.80 INFO | __main__:start_module:9 | start : get_currency_rate
+03:11:19.24 ERROR | src.client:get_currency_rate:39 | Gate api exception, label: INVALID_CURRENCY_PAIR, message: Invalid currency pair WDE
+
+10:17:20.30 INFO | __main__:start_module:10 | start : get_currency_rate
+10:17:28.99 SUCCESS | src.client:get_currency_rate:36 | 27680
+10:17:34.83 INFO | __main__:start_module:16 | start : get_balance
+10:18:03.65 ERROR | src.client:get_balance:55 | Gate api exception, label: INVALID_KEY, message: Invalid key provided
+
+10:18:36.27 INFO | __main__:start_module:21 | start : get_list_of_orders
+10:18:38.95 ERROR | src.client:get_list_of_orders:71 | Gate api exception, label: INVALID_KEY, message: Invalid key provided
+
+10:22:43.45 INFO | __main__:start_module:16 | start : get_balance
+10:22:57.75 SUCCESS | src.client:get_balance:52 | {'details': {'cbbc': {'amount': '0', 'currency': 'USDT'},
+             'delivery': {'amount': '0', 'currency': 'USDT'},
+             'finance': {'amount': '0', 'currency': 'USDT'},
+             'futures': {'amount': '0', 'currency': 'USDT'},
+             'margin': {'amount': '0', 'currency': 'USDT'},
+             'options': {'amount': '0', 'currency': 'USDT'},
+             'payment': {'amount': '0', 'currency': 'USDT'},
+             'quant': {'amount': '0', 'currency': 'USDT'},
+             'spot': {'amount': '0', 'currency': 'USDT'}},
+ 'total': {'amount': '0', 'currency': 'USDT'}}
+10:25:00.77 INFO | __main__:start_module:16 | start : get_balance
+10:25:03.41 SUCCESS | src.client:get_balance:52 | 
+{'details': {'cbbc': {'amount': '0', 'currency': 'USDT'},
+             'delivery': {'amount': '0', 'currency': 'USDT'},
+             'finance': {'amount': '0', 'currency': 'USDT'},
+             'futures': {'amount': '0', 'currency': 'USDT'},
+             'margin': {'amount': '0', 'currency': 'USDT'},
+             'options': {'amount': '0', 'currency': 'USDT'},
+             'payment': {'amount': '0', 'currency': 'USDT'},
+             'quant': {'amount': '0', 'currency': 'USDT'},
+             'spot': {'amount': '0', 'currency': 'USDT'}},
+ 'total': {'amount': '0', 'currency': 'USDT'}}
+10:26:02.52 INFO | __main__:start_module:16 | start : get_balance
+10:26:10.80 SUCCESS | src.client:get_balance:51 | {'details': {'cbbc': {'amount': '0', 'currency': 'BTC'},
+             'delivery': {'amount': '0', 'currency': 'BTC'},
+             'finance': {'amount': '0', 'currency': 'BTC'},
+             'futures': {'amount': '0', 'currency': 'BTC'},
+             'margin': {'amount': '0', 'currency': 'BTC'},
+             'options': {'amount': '0', 'currency': 'USDT'},
+             'payment': {'amount': '0', 'currency': 'BTC'},
+             'quant': {'amount': '0', 'currency': 'BTC'},
+             'spot': {'amount': '0', 'currency': 'BTC'}},
+ 'total': {'amount': '0', 'currency': 'BTC'}}
+10:26:22.24 INFO | __main__:start_module:21 | start : get_list_of_orders
+10:26:24.51 SUCCESS | src.client:get_list_of_orders:67 | []
+10:54:41.95 INFO | __main__:start_module:25 | start : place_limit_order
+10:55:25.07 INFO | __main__:start_module:25 | start : place_limit_order
+10:58:54.67 INFO | __main__:start_module:25 | start : place_limit_order
+11:06:45.50 INFO | __main__:start_module:25 | start : place_limit_order
+11:07:01.20 ERROR | src.client:place_limit_order:85 | Gate api exception, label: INVALID_PARAM_VALUE, message: Your order size 0.200000 USDT is too small. The minimum is 1 USDT
+
+11:55:31.29 WARNING | __main__:<module>:58 | Вы ввели модуль, которого не существует. Перезапустите и попробуйте снова.
+11:55:45.00 INFO | __main__:start_module:33 | start : cancel_active_order
+11:56:18.94 SUCCESS | src.client:cancel_active_orders:100 | []
